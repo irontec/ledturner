@@ -26,7 +26,7 @@ gcc -o ledturner ledturner.c
 	--scroll, -s [0|1] Turn OFF (0) , ON (1) Scroll Lock LED
 ```
 
-## EXAMPLES ##
+## Examples ##
 
 Assuming our keyboard is on /dev/input/event8
 
@@ -48,7 +48,7 @@ Turn them all OFF
 ```
 
 
-## TIPS ##
+## Tips ##
 
 * You probably must be root to be able to write on input devices.
 * Use xinput to find out your devices:
