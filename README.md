@@ -1,4 +1,4 @@
-LEDTURNER
+LedTurner
 =========
 
 Turns on/off keyboard leds writing directly to input device.
@@ -14,6 +14,19 @@ gcc -o ledturner ledturner.c
 
 
 ## Using ##
+
+```
+./ledturner --input /dev/input/event* [OPTIONS]
+```
+
+
+```
+	--num, -n [0|1]    Turn OFF (0) , ON (1) Num Lock LED
+	--caps, -c [0|1]   Turn OFF (0) , ON (1) Caps Lock LED
+	--scroll, -s [0|1] Turn OFF (0) , ON (1) Scroll Lock LED
+```
+
+## EXAMPLES ##
 
 Assuming our keyboard is on /dev/input/event8
 
